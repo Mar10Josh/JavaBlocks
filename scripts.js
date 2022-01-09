@@ -95,3 +95,17 @@ Blockly.defineBlocksWithJsonArray([{
     "tooltip": "",
     "helpUrl": ""
   }])
+
+  let xml = Blockly.Xml.workspaceToDom(Blockly.getMainWorkspace());
+   button.blocklyXml = xml;
+   function loadWorkspace(button) {
+    let workspace = Blockly.getMainWorkspace();
+    workspace.clear();
+    if (button.blocklyXml) {
+      Blockly.Xml.domToWorkspace(button.blocklyXml, workspace);
+    }
+  }
+  function enableBlocklyMode(e) {
+    loadWorkspace(currentButton);
+  }
+  enableBlocklyMode()
