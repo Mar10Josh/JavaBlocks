@@ -39,15 +39,15 @@
       "options": [
         [
           "No error specified",
-          "NO"
+          "NO ERROR SPECIFIED"
         ],
         [
           "Code is going wrong.",
-          "WRONG"
+          "CODE GONE WRONG"
         ],
         [
           "Code is in development.",
-          "DEVELOPMENT"
+          "CODE IN DEVELOPMENT"
         ]
       ]
     }
