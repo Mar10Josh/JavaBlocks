@@ -1,0 +1,8 @@
+/* style from the owner of styel so i got styel.css */
+div.warning {
+  background-color: rgba(255,247,0,0.5);
+  border-width: thick;
+}
+div.warning:before {
+  content: "⚠: "
+}
