@@ -6,3 +6,6 @@ div.warning {
 div.warning:before {
   content: "⚠: "
 }
+* {
+  font-family: Arial, sans-serif;
+}
