@@ -3,7 +3,9 @@ var workspace = Blockly.inject('blockly-div', {
     toolbox: document.getElementById('toolbox'),
     toolboxPosition: 'end',
     horizontalLayout: true,
-    scrollbars: false
+    scrollbars: false,
+    renderer: 'custom_renderer',
+    theme: Blockly.Themes.Darkest
   });
 
 Blockly.defineBlocksWithJsonArray([{
